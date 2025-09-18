@@ -1,0 +1,7 @@
+project_name        = "archie"
+location            = "westeurope"
+vnet_cidr           = "10.1.0.0/16"
+subnet_cidr         = "10.1.1.0/24"
+vm_size             = "Standard_B1s"
+admin_username      = "devuser"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"

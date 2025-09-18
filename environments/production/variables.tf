@@ -1,0 +1,7 @@
+variable "project_name" { type = string }
+variable "location" { type = string }
+variable "vnet_cidr" { type = string }
+variable "subnet_cidr" { type = string }
+variable "vm_size" { type = string }
+variable "admin_username" { type = string }
+variable "ssh_public_key_path" { type = string }
